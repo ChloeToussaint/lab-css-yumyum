@@ -1,1 +1,28 @@
-*, :before, :after {box-sizing:border-box;}
+*, :before, :after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    src: href="https://fonts.gstatic.com";
+}
+
+.resto {
+    color: orange;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.find {display: flex;
+    flex-direction: column;
+    background: linear-gradient(#ADFF2F, #008000);
+}
+.order {
+    color : white;
+    width: 250px;
+  
+
+}
